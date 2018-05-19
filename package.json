@@ -1,0 +1,14 @@
+{
+  "name": "timestamp-plug",
+  "version": "1.0.0",
+  "description": "This is my freecodecamp challenge1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
