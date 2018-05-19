@@ -1,6 +1,7 @@
 //Import express 
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 3000;
 
 //homepage
 app.use(express.static('public'));
@@ -42,4 +43,4 @@ app.get('/:timestamp',function(req,res){
     }
 })
 
-app.listen(3000);
+app.listen(port);
